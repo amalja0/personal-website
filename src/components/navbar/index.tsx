@@ -63,7 +63,7 @@ const Navbar = ({ selectedPage, setSelectedPage }: Props) => {
             {
                 !isAboveMediumScreens && isMenuToggled && (
                     <div 
-                        className="flex fixed right-0 w-40 items-center justify-center"
+                        className="flex fixed right-0 w-40 items-center justify-center bg-white"
                     >
                         <div className="flex flex-col gap-5 items-center">
                             {
