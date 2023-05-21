@@ -4,11 +4,7 @@ import useMediaQuery from "@/hooks/useMediaQuery";
 import Information from "./information";
 
 
-type Props = {
-    setSelectedPage: (value: SelectedPage) => void;
-};
-
-const Home = (props: Props) => {
+const Home = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
 
   return (
