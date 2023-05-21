@@ -1,4 +1,3 @@
-import { SelectedPage } from "@/shared/types";
 import Header from "./header";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import Information from "./information";
